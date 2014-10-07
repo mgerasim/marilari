@@ -10,9 +10,10 @@
 // The commands
 $commands = array(
 'mysqldump -u u0033011_default -pzaq12wsx u0033011_default > u0033011_default.out',
+'git config --global user.name "Mikhail Gerasimov"',
+'git config --global user.email mgerasim@inbox.ru',
 'git add .',
 'git commit -m push',
-'git push origin master',
 'ls'
 );
  
