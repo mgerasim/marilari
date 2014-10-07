@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <menu>
+        <options var="controller">
+            <option name='Categories' value="category" msg="Main page of shop (list of root categories) or single category" />
+            <option name='Basket' value="cart" msg="Shop basket" />
+            <option name='Search' value="search" msg="Extended product search" />
+            <option name='User' value="user" msg="Registration, Login, Logout, My account, Edit account, Orders" />
+            <option name='Wishlist' value="wishlist" msg="Shop wishlist" />
+            <option name='Manufacturers' value="manufacturer" msg="List or manufacturer" />
+            <option name='Vendors' value="vendor" msg="List or vendor" />
+            <option name='StaticPage' value="content" msg="Static text" />
+            <option name='Checkout' value="checkout" msg="Checkout" />
+			<option name='Product' value="product" msg="Show product" />
+            <option name='Products' value="products" msg="List products" />
+        </options>
+    </menu>
+
+    <fields name="request">
+        <fieldset name="request">
+            <field name="task" type="list" label="Show" description="Page to show">
+                <option value="">All</option>
+                <option value="view">Category or Manufacturer or StaticPage</option>
+
+                <option value="register">User / Registration</option>
+                <option value="login">User / Login</option>
+                <option value="logout">User / Logout</option>
+                <option value="editaccount">User / Edit account</option>
+                <option value="orders">User / Orders</option>
+
+                <option value="tophits">Products / Top Hits</option>
+                <option value="toprating">Products / Top Rating</option>
+                <option value="label">Products / Label Products</option>
+                <option value="bestseller">Products / Bestseller</option>
+                <option value="random">Products / Random</option>
+                <option value="last">Products / Last Products</option>
+
+                <option value="info">Vendors / Vendor info</option>
+                <option value="products">Vendors / Products</option>
+
+            </field>
+            <field name="category_id" type="text" default="" label="Category ID" description="Category ID" />
+            <field name="manufacturer_id" type="text" default="" label="Manufacturer ID" description="Manufacturer ID" />
+            <field name="label_id" type="text" default="" label="Label ID" description="Label ID" />
+            <field name="vendor_id" type="text" default="" label="Vendor ID" description="Vendor ID" />
+            <field name="page" type="list" default="" label="StaticPage" description="StaticPage">
+                <option value="">-</option>
+                <option value="agb">Terms of Service</option>
+                <option value="return_policy">Return policy</option>
+                <option value="shipping">Shipping</option>
+                <option value="privacy_statement">Privacy statement</option>
+            </field>
+            <field name="price_from" type="text" default="" label="Price from" description="Price from" />
+            <field name="price_to" type="text" default="" label="Price to" description="Price to" />
+			<field name="product_id" type="text" default="" label="Product ID" description="Product ID (also fill Category ID)" />
+        </fieldset>
+    </fields>
+</metadata>
