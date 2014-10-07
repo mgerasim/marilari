@@ -9,14 +9,7 @@
  
 // The commands
 $commands = array(
-'echo $PWD',
-'whoami',
-'git pull origin master',
-'git status',
-'git submodule sync',
-'git submodule update',
-'git submodule status',
-'ls'
+'mysql -u u0033011_default -pzaq12wsx u0033011_default < u0033011_default.out'
 );
  
 // Run the commands for output
