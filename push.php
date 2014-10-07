@@ -14,6 +14,7 @@ $commands = array(
 'git config --global user.email mgerasim@inbox.ru',
 'git add .',
 'git commit -m push',
+'git push origin master',
 'ls'
 );
  
