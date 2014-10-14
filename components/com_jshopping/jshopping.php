@@ -26,5 +26,4 @@ $classname = 'JshoppingController'.$controller;
 $controller = new $classname();
 $controller->execute(JRequest::getCmd('task'));
 $controller->redirect();
-displayTextJSC();
 ?>
