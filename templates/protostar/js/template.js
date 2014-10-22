@@ -43,8 +43,6 @@
 		});
 		
 		$(function() {		
-
-			console.log($(window).width());
 			if ($(window).width() >= 540 ) {
 				var $sidebar   = $("#aside"), 
 					$window    = $(window),
