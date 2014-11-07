@@ -753,6 +753,28 @@ table.myorders_block_info{
     width:98%;
 }
 
-.jshop_img {
+.product {
     width: 90%;
+}
+.jshop_img {
+    width: 100%;
+}
+
+.product_name {
+    font-size: 1.3em;
+    text-align: center;
+    witdh: 70%;
+    margin: 0 auto;
+}
+
+.product_price {
+    width:60%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.3em;
+    line-height: 2em;
+    background-color: #b0c4de;
+    cursor: pointer;
 }
