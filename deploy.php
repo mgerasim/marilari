@@ -10,7 +10,6 @@
 // The commands
 $commands = array(
 'echo $PWD',
-'rm u0033011_default.out',
 'whoami',
 'git pull origin master',
 'git status',
