@@ -755,16 +755,21 @@ table.myorders_block_info{
 
 .product {
     width: 90%;
+    height: 100%;
 }
 .jshop_img {
     width: 100%;
+
 }
 
 .product_name {
     font-size: 1.3em;
     text-align: center;
-    witdh: 70%;
+    witdh: 80%;
     margin: 0 auto;
+    float:left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .product_price {
@@ -773,8 +778,10 @@ table.myorders_block_info{
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
+    float: right;
     font-size: 1.3em;
     line-height: 2em;
     background-color: #b0c4de;
     cursor: pointer;
 }
+
