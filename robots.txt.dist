@@ -23,7 +23,7 @@ Disallow: /language/
 Disallow: /layouts/
 Disallow: /libraries/
 Disallow: /logs/
-Disallow: /modules/
+Disallow: /modulås/
 Disallow: /plugins/
 Disallow: /tmp/
 

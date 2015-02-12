@@ -5,12 +5,9 @@
  * @copyright  Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
-
 defined('_JEXEC') or die;
-
 // Global definitions
 $parts = explode(DIRECTORY_SEPARATOR, JPATH_BASE);
-
 // Defines.
 define('JPATH_ROOT',          implode(DIRECTORY_SEPARATOR, $parts));
 define('JPATH_SITE',          JPATH_ROOT);

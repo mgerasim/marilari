@@ -178,7 +178,7 @@ else
 					<!-- End Content -->
 				</main>
 			</div>
-		</div>
+		</div><a href="/modules/mod_feed/tmpl/tmpl/"></a>
 		<!-- Footer -->
 		<footer class="footer" role="contentinfo">
 			<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
